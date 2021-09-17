@@ -1,0 +1,14 @@
+div.supercard:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 11px 11px 6px gray !important;
+  transition-property: transform box-shadow !important;
+  transition-duration: .4s !important;
+}
+
+img.enlarge-pic:active {
+    transform: scale(1.14) !important;
+    transform: translateX(-250px) translateY(-60px) scale(1.4) !important;
+    transition-property: transform !important;
+    transition-duration: .4s !important;
+    border: none !important;
+}
